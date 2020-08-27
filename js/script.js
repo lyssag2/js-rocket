@@ -1,3 +1,20 @@
+var doCoolStuff = function () {
+	var currentClassName = document.getElementByID('cool').className;
+
+	if (currentClassName == 'cool'){
+		document.getElementByID('cool').className = 'cool red';
+	} else {
+		document.getElementByID('cool').className = 'cool';
+	}
+}
+
+
+
+// var doCoolStuff = function () {
+// 	document.getElementByID('cool').className = 'cool red';
+// }
+
+
 var sayMyName = function (name) {
 	alert('My name is: '+name);
 }
